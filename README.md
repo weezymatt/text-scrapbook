@@ -1,2 +1,2 @@
 # Text Scraping
-## A (raccoon) scrapbook for text and data mining.
+## A  scrapbook for text and data mining.
