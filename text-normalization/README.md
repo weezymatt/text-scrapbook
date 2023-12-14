@@ -13,3 +13,6 @@ Solutions:
 
 Minimum Edit Distance:
 see more...
+
+## Byte Pair Encoding
+working on implementation...
