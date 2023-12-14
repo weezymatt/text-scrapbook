@@ -7,12 +7,12 @@ Solutions:
 - Mapping everything to lower case (case folding)
 
 ## Before Normalization...
-1. Tokenize, or segment, words (byte-pair encoding useful to know; e.g. BERT uses bpe)
+1. Tokenize, or segment, words (byte-pair encoding useful to know since e.g. BERT uses bpe)
 2. Normalize word formats
 3. Segmenting sentences
 
-Minimum Edit Distance:
+## Minimum Edit Distance:
 see more...
 
 ## Byte Pair Encoding
-working on implementation...
+Working on implementation... Click *insert link* to tokenization folder.
