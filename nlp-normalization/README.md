@@ -16,5 +16,13 @@ The Levenshtein distance between two strings is defined as the mininum number of
 
 For a good visualization, please [click here](https://www.youtube.com/watch?v=We3YDTzNXEk).
 
+Besides writing code from scratch, you can import the [`textdistance` library](https://github.com/life4/textdistance), written by [Gram Voronov](https://orsinium.dv/). 
+
+```bash
+import textdistance
+```
+
+There are about 30 edit distance algorithms available (e.g., [Hamming](https://en.wikipedia.org/wiki/Hamming_distance), [Needleman Wunsch](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm), and [Smith Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)).
+
 ## Byte Pair Encoding
 Working on implementation... Click *insert link* to tokenization folder.
