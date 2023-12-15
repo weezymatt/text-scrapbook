@@ -16,7 +16,7 @@ The Levenshtein distance between two strings is defined as the mininum number of
 
 For a good visualization, please [click here](https://www.youtube.com/watch?v=We3YDTzNXEk).
 
-Besides writing code from scratch, you can import the [`textdistance` library](https://github.com/life4/textdistance), written by [Gram Voronov](https://orsinium.dv/). 
+Besides writing code from scratch, you can import the [`textdistance` library](https://github.com/life4/textdistance), written by [Gram Voronov](https://orsinium.dev/). 
 
 ```bash
 import textdistance
