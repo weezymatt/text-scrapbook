@@ -1,2 +1,2 @@
-# eye-shell
-Useful, or playful, shell scripts.
+# Welcome!
+Here's some playful shell scripts I enjoyed writing.
