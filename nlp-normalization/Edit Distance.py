@@ -5,7 +5,7 @@
 # Removal, insertion, or substitution; cost = $1 each
 # Figure: 2.17
 
-class Solution:
+class Distance:
 	def minDistance(self, word1: str, word2: str) -> int:
 		n = len(word1)
 		m = len(word2)
@@ -32,6 +32,6 @@ class Solution:
 					#									DELETE(LEFTWARDS)
 		return dp[n][m]
 
-solver = Solution()
+solver = Distance()
 distance = solver.minDistance("test", "   test")
 print(distance)
