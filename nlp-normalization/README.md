@@ -6,12 +6,16 @@ Solutions:
 - Replace with vectors (embeddings)
 - Mapping everything to lower case (case folding)
 
-## Before Normalization...
+Before Normalization...
+
 1. Tokenize, or segment, words (byte-pair encoding useful to know since e.g. BERT uses bpe)
 2. Normalize word formats
 3. Segmenting sentences
 
-## Minimum Edit Distance
+## Distance Measurement
+The measure of similarity between texts is a useful metric in many applications. There are many approaches of how to compare two texts (strings of characters). Each metric has its own advantages, disadvantages and specific use cases. A few algorithms are outlined below:
+
+### Minimum Edit Distance
 The Levenshtein distance between two strings is defined as the mininum number of operations (i.e., deletion, insertion, substitution) required to transform string-1 to string-2. 
 
 For a good visualization, please [click here](https://www.youtube.com/watch?v=We3YDTzNXEk).
@@ -24,7 +28,8 @@ import textdistance
 
 There are about 30 edit distance algorithms available (e.g., [Hamming](https://en.wikipedia.org/wiki/Hamming_distance), [Needleman Wunsch](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm), and [Smith Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)). 
 
-Another useful distance formula to know is the Jaccard coefficient. It is the measure of similarity for two sets of data A and B (i.e = |A ∩ B| / |A ∪ B|).
+### Jaccard Coefficient 
+Another useful distance formula to know is the Jaccard coefficient for . It is the measure of similarity for two sets of data A and B (i.e = |A ∩ B| / |A ∪ B|). 
 
 ## Byte Pair Encoding
 Working on implementation... Click *insert link* to tokenization folder.
