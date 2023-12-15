@@ -22,7 +22,9 @@ Besides writing code from scratch, you can import the [`textdistance` library](h
 import textdistance
 ```
 
-There are about 30 edit distance algorithms available (e.g., [Hamming](https://en.wikipedia.org/wiki/Hamming_distance), [Needleman Wunsch](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm), and [Smith Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)).
+There are about 30 edit distance algorithms available (e.g., [Hamming](https://en.wikipedia.org/wiki/Hamming_distance), [Needleman Wunsch](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm), and [Smith Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)). 
+
+Another useful distance formula to know is the Jaccard coefficient. It is the measure of similarity for two sets of data A and B (i.e = |A ∩ B| / |A ∪ B|).
 
 ## Byte Pair Encoding
 Working on implementation... Click *insert link* to tokenization folder.
