@@ -10,4 +10,5 @@ research > teaching > courses -->
 
 # Resources:
 Good resources should I ever need to review old NLP processes.
+
 [Language Processing with Perl and Prolog](https://ilppp.cs.lth.se/slides.shtml)
