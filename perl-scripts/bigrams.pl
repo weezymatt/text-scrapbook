@@ -1,7 +1,8 @@
 # Reference: Language Processing with Perl and Prolog (not my function but sorting below is)
 # data: browncorpus.txt
 #
-# Tokenization & counts using Perl
+# Bigrams & Frequencies using Perl
+
 
 use  utf8;
 binmode(STDOUT, ":encoding(UTF-8)");
@@ -18,17 +19,20 @@ $text =~ s/\n+/\n/g;
 # print $text;
 
 @words = split(/\n/, $text);
-for ($i = 0; $i <= $#words; $i++) {
-if (!exists($frequency{$words[$i]})) {
-$frequency{$words[$i]} = 1;
+for ($i = 0; $i < $#words; $i++) {
+$bigrams[$i] = $words[$i] . " " . $words[$i + 1];
+}
+for ($i = 0; $i < $#words; $i++) {
+if (!exists($frequency_bigrams{$bigrams[$i]})) {
+$frequency_bigrams{$bigrams[$i]} = 1;
 } else {
-$frequency{$words[$i]}++;
+$frequency_bigrams{$bigrams[$i]}++;
 }
 }
-foreach $word (sort keys %frequency){
-print "$frequency{$word} $word\n";
+foreach $bigram (sort keys %frequency_bigrams){
+print "$frequency_bigrams{$bigram} $bigram \n";
 }
-# > unigrams.txt
 
-# Unix Commands to sort
-# sort -n -r -k1,1 unigrams.txt > sorted_file.tmp && mv sorted_file.tmp sorted_unigrams.txt
+# > sorted_bigrams.txt
+# unix command to organize easiest
+# sort -n -r -k1,1 sorted_bigrams.txt
